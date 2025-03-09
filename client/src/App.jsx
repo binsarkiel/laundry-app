@@ -13,9 +13,9 @@ import TransactionDetailPage from './pages/TransactionDetailPage';
 function App() {
   return (
     <AuthProvider>
-       <div className="App min-h-screen flex flex-col">
+       <div className="App h-screen flex flex-col">
           <Navbar />
-          <div>
+          <div className='flex-grow'>
           <Routes>
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />

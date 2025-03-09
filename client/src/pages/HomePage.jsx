@@ -3,7 +3,7 @@ import React from "react";
 function HomePage() {
   return (
     <div
-      className="hero h-218"
+      className="hero h-full"
       style={{
         backgroundImage:
           "url(https://images.unsplash.com/photo-1545173168-9f1947eebb7f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGF1bmRyeXxlbnwwfHwwfHx8MA%3D%3D)",
@@ -24,3 +24,5 @@ function HomePage() {
     </div>
   );
 }
+
+export default HomePage;
