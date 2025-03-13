@@ -28,7 +28,6 @@ const authController = {
         { expiresIn: '1h' } // Token berlaku selama 1 jam
       );
 
-      // Kirim response (jangan kirim password!)
       res.status(201).json({ message: 'User registered successfully', token, user: { id: newUser.id, username: newUser.username, role: newUser.role } });
 
     } catch (error) {
